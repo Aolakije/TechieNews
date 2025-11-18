@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>HackerNews - Ember Edition</title>
+  </head>
+  <body>
+    <!-- Ember Glow Background -->
+    <div class="ember-background"></div>
+    
+    <!-- Top Fade Grid Background -->
+    <div class="grid-background"></div>
+    
+    <!-- Main Content Container -->
+    <div class="content-wrapper">
+      
+      <!-- Header -->
+      <header class="main-header">
+        <h1 class="site-title"> ₮ɆȻĦłɆ₦Ɇ₩₴ ȻⱠØ₦Ɇ</h1>
+        <p class="site-subtitle">Stay updated with the latest in tech</p>
+      </header>
+
+      <!-- Stories Section -->
+      <section class="content-section">
+        <h1 class="h1stories section-title">Stories</h1>
+        <div class="stories"></div>
+        <button class="btn-see-more-stories" hidden>Load More Stories</button>
+      </section>
+
+      <!-- Jobs Section -->
+      <section class="content-section">
+        <h1 class="h1jobs section-title">Jobs</h1>
+        <div class="jobs"></div>
+        <button class="btn-see-more-jobs" hidden>Load More Jobs</button>
+      </section>
+
+      <!-- Polls Section -->
+      <section class="content-section">
+        <h1 class="h1polls section-title">Polls</h1>
+        <div class="polls"></div>
+        <button class="btn-see-more-polls" hidden>Load More Polls</button>
+      </section>
+
+      <!-- Last News Section -->
+      <section class="content-section last-news-section">
+        <h1 class="h1last-news section-title">Live Updates</h1>
+        <div class="last-news"></div>
+      </section>
+
+      <!-- Footer -->
+      <footer class="main-footer">
+        <p>Powered by HackerNews API • Updates every 5 seconds</p>
+      </footer>
+
+    </div>
+  </body>
+  <script type="module" src="main.js"></script>
+</html>
